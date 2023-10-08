@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b8075e92-565b-4373-9d3d-5912b34da53d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Apikey/Apikey.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Trailers/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Trailers/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/Actors/actors.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/Actors/img/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/Actors/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/MoviesPages/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/MoviesPages/css.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/MoviesPages/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/NowPlaying/NowPlaying.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/NowPlaying/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/Popular/popular.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/Popular/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/TopRated/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/TopRated/topRated.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2VWteTfS7lwH9xCv8wJSsD4ZwSf" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/JetBrains/WebStorm 2022.3.2/jbr/bin/fr/movies&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Program Files\JetBrains\WebStorm 2022.3.2\jbr\bin\fr\movies\src\components\pages\Actors" />
+      <recent name="C:\Program Files\JetBrains\WebStorm 2022.3.2\jbr\bin\fr\movies\src\components\pages" />
+      <recent name="C:\Program Files\JetBrains\WebStorm 2022.3.2\jbr\bin\fr\movies\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b8075e92-565b-4373-9d3d-5912b34da53d" name="Changes" comment="" />
+      <created>1694963759044</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694963759044</updated>
+      <workItem from="1694963760300" duration="7578000" />
+      <workItem from="1695015605204" duration="15089000" />
+      <workItem from="1695112813787" duration="1324000" />
+      <workItem from="1695125070901" duration="4283000" />
+      <workItem from="1695183872561" duration="17639000" />
+      <workItem from="1695400038179" duration="7912000" />
+      <workItem from="1695451665228" duration="4344000" />
+      <workItem from="1695622057946" duration="4499000" />
+      <workItem from="1695659786768" duration="3850000" />
+      <workItem from="1695687527822" duration="8120000" />
+      <workItem from="1695708480871" duration="10325000" />
+      <workItem from="1695861546588" duration="5734000" />
+      <workItem from="1695872882400" duration="3304000" />
+      <workItem from="1695975883433" duration="1792000" />
+      <workItem from="1695981525114" duration="737000" />
+      <workItem from="1696161072654" duration="839000" />
+      <workItem from="1696171659031" duration="2576000" />
+      <workItem from="1696334458187" duration="9724000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/pages/MoviesPages/index.jsx</url>
+          <line>158</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/pages/Actors/actors.jsx</url>
+          <line>29</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

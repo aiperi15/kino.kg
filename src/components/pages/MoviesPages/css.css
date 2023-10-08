@@ -1,0 +1,147 @@
+.detail{
+  display: flex;
+  gap: 20px;
+}
+.detail-text{
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  margin: 0 30px;
+}
+.dates{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#detail{
+  -webkit-box-shadow: 0 5px 100px 600px rgba(229, 0, 0, 0.96) inset;
+  -moz-box-shadow: 0 5px 100px 600px rgba(0, 0, 0, 0.63) inset;
+  box-shadow: 0 5px 10px 600px rgba(37, 26, 26, 0.78) inset;
+  padding: 60px  0 0 0;
+}
+
+.group-date-genre{
+  padding-bottom: 40px;
+}
+.group-rating{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: white;
+}
+.dates h1{
+  font-size: 46px;
+  font-weight: 600;
+  color: white;
+}
+.dates h4{
+  color: #9b9a9a;
+  opacity: .8;
+  font-size: 40px;
+}
+.genres{
+display: flex;
+  align-items: center;
+}
+.genres h3{
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 10px;
+  font-size: 16px;
+}
+.genres h5{
+  color: white;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.rating{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  color: white;
+  width: 65px;
+  height: 65px;
+  background: #0a2464;
+  border-radius: 50%;
+  border: 3px solid greenyellow;
+}
+.rating sup{
+  font-size: 8px;
+}
+.icons1,
+.icons2,
+.icons3,
+.icons4{
+  width: 60px;
+  height: 60px;
+  background: #0a2464;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 23px;
+  cursor: pointer;
+}
+.group-rating a{
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+.group-date span{
+  font-size: 20px;
+}
+
+.tagline{
+  font-size: 20px;
+  color: yellowgreen;
+  display: grid;
+  place-items: center;
+  padding: 20px 0;
+}
+.overview{
+  font-size: 28px;
+  color: white;
+  padding: 10px;
+}
+.overview h2{
+  color: white;
+  font-size: 28px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.i{
+  font-size: 20px;
+  color: white;
+}
+
+.rating-text{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.detail-images{
+  position: relative;
+
+}
+.display{
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+  height: 85%;
+  transition: .5s;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  opacity: 0;
+  backdrop-filter: blur(8px);
+  cursor: pointer;
+}
+.display:hover{
+  opacity: 1;
+}
+
