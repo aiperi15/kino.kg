@@ -7,12 +7,16 @@ import TopRated from "./components/pages/TopRated/topRated";
 import MoviesPages from "./components/pages/MoviesPages";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Home from "./components/pages/Home";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function App() {
     return (
         <div className="App">
             <Header/>
             <Routes>
+                <Route element={<Home/>} path={"/"}/>
                 <Route element={<Popular/>} path={"/popular"}/>
                 <Route element={<NowPlaying/>} path={"/now-playing"}/>
                 <Route element={<TopRated/>} path={"/top-rated"}/>
