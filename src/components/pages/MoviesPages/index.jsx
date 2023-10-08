@@ -13,6 +13,7 @@ import "./css.css";
 import {PiArrowsOutFill} from "react-icons/pi";
 import Actors from "../Actors/actors";
 import Trailers from "../../Trailers";
+import Hero from "../Home/Hero/hero";
 
 
 
@@ -161,6 +162,7 @@ backgroundPosition:"center",
 
                 <Actors id={movieId}/>
             <Trailers id={movieId}/>
+
 
 
 
