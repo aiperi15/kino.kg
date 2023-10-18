@@ -10,6 +10,8 @@ import "slick-carousel/slick/slick-theme.css";
 import Home from "./components/pages/Home";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import ActorsDetails from "./components/pages/Actors_Details";
+import Footer from "./components/Footer";
 
 function App() {
     return (
@@ -17,12 +19,16 @@ function App() {
             <Header/>
             <Routes>
                 <Route element={<Home/>} path={"/"}/>
+
                 <Route element={<Popular/>} path={"/popular"}/>
                 <Route element={<NowPlaying/>} path={"/now-playing"}/>
                 <Route element={<TopRated/>} path={"/top-rated"}/>
                 <Route element={<MoviesPages/>} path={"/movies-pages/:movieId"}/>
+                <Route element={<ActorsDetails/>} path={"/movies/pages/actor/:actorId"}/>
+
 
             </Routes>
+            <Footer/>
         </div>
     );
 }

@@ -1,0 +1,45 @@
+#actor-detail{
+    padding: 60px 0;
+    background: powderblue;
+}
+.actor-detail{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+
+}
+.actor-detail h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.biography p{
+    font-size: 17px;
+}
+.social a{
+    color: black;
+    font-size: 26px;
+    margin: 15px 10px 0 10px;
+}
+.birth{
+    margin: 20px 0;
+}
+.popularity-name{
+    display: grid;
+}
+.names h2{
+    padding-bottom: 10px;
+}
+.biography button{
+    color: #0a4864;
+    border: none;
+    background:powderblue ;
+    font-size: 16px;
+    cursor: pointer;
+}
+.actor-detail-title h1{
+    color: blueviolet;
+}
+.biography h2{
+    color: #965acc;
+    margin: 6px 0;
+}
