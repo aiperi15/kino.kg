@@ -5,6 +5,7 @@ import axios from "axios";
 import "./style.css";
 import user from "./../Actors/img/user.png"
 import Slider from "react-slick"
+import {NavLink} from "react-router-dom";
 
 const Actors = ({id}) => {
     const [actors,setActors]=useState([])
@@ -41,10 +42,14 @@ const Actors = ({id}) => {
                                 {
                                     actors.map(el=>(
                                         <div className="images">
+                                            <NavLink to={`/movies/pages/actor/${el.id}`}>
+
                                             {
                                                ! el.profile_path ? <img src={user} alt="img" width={155}/>
                                             : <img src={`https://www.themoviedb.org/t/p/w138_and_h175_face${el.profile_path}`} alt="img"/>
                                             }
+                                            </NavLink>
+
 
                                         <h3>{el.name}</h3>
                                         </div>

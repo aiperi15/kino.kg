@@ -4,7 +4,10 @@ import Slider from "react-slick";
 import docs from "../../../../../src/assets/img/docs.jpg"
 import axios from "axios";
 import {Apikey} from "../../../../Apikey/Apikey";
-
+import picture2 from "../../../../assets/img/picture2.jpg"
+import picture3 from "../../../../assets/img/picture3.jpg"
+import picture4 from "../../../../assets/img/picture4.jpg"
+import picture5 from "../Hero/img/Первый экран.png"
 
 const Hero = () => {
     const [popular, setPopular] = useState([])
@@ -17,6 +20,7 @@ const Hero = () => {
         getPopular(Apikey)
     }, [])
     console.log(popular)
+
 
 
     const settings = {
@@ -36,9 +40,58 @@ const Hero = () => {
 
                 <section id="hero">
                     <div className="container">
+
+
+                            <div className="hero">
+                                <img src={docs}alt="img"/>
+                                <h2>Carl's Date</h2>
+                            </div>
+
+
+
+
+
+                    </div>
+
+
+
+                </section>
+                <section id="hero">
+                    <div className="container">
                         <div className="hero">
                             <div id="hero">
-                                <img src={docs}alt="img"/>
+                                <img src={picture2}alt="img"/>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+
+                </section>
+                <section id="hero">
+                    <div className="container">
+                        <div className="hero">
+                            <div id="hero">
+                                <img src={picture3}alt="img"/>
+<h2>PAW Patrol: The Mighty Movie</h2>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+
+                </section>
+                <section id="hero">
+                    <div className="container">
+                        <div className="hero">
+                            <div id="hero">
+                                <img src={picture4}alt="img"/>
 
                             </div>
 
@@ -50,27 +103,12 @@ const Hero = () => {
 
                 </section>
 
-                {
-                    popular.map((el=>(
-                        <div style={{
-                            backgroundPosition:"center",
-                            backgroundRepeat:"no-repeat",
-                            backgroundSize:"cover",
-                            minHeight:"80vh",
-maxWidth:"90%",
-                            minWidth: "100vh",
-                            maxHeight: "80vh",
-                            top: "0",
-                            bottom: "0",
-                         zIndex:"99",
-                        }} className="hero1-img" >
-                            <img src={`https://www.themoviedb.org/t/p/w220_and_h330_face${el.poster_path}`}
-                                 alt="img"/>
-                        </div>
-                    )))
-                }
+
 
             </Slider>
+            <div className="hero1">
+                <img src={picture5} alt=""/>
+            </div>
 
 
 
